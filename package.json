@@ -1,0 +1,29 @@
+{
+  "name": "@jeffjewiss/today-gcal-cli",
+  "version": "1.0.0",
+  "description": "Print out the items from multiple Google calendars.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js | tap-spec"
+  },
+  "bin": {
+    "today": "./index.js"
+  },
+  "author": "Jeff <jeff@jeffjewiss.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "tap-spec": "4.1.0",
+    "tape": "4.2.2"
+  },
+  "dependencies": {
+    "async": "1.5.0",
+    "chalk": "1.1.1",
+    "columnify": "1.5.2",
+    "ical": "0.4.0",
+    "rc": "1.1.5",
+    "request": "2.65.0"
+  }
+}
