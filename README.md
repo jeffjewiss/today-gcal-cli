@@ -7,7 +7,7 @@ CLI Usage
 ---------
 
 ```console
-$ today
+$ today-gcal
 
 TIME      | TITLE                   | LOCATION | CALENDAR
 12:00 EST | Lunch with Jane         | Lakeview | Personal
