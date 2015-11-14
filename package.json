@@ -1,6 +1,6 @@
 {
   "name": "@jeffjewiss/today-gcal-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Print out the items from multiple Google calendars.",
   "main": "index.js",
   "scripts": {
